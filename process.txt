@@ -1,0 +1,14 @@
+//npx shadcn-ui@latest init
+
+npx shadcn-ui@latest add input
+npx shadcn-ui@latest add card
+npx shadcn-ui@latest add switch
+npx shadcn-ui@latest add toast
+
+//for clerk
+1)npm install @clerk/nextjs
+2).env.locals
+
+3)>layout.js
+    import { ClerkProvider } from "@clerk/nextjs/dist/types/components.server";
+
